@@ -1,0 +1,227 @@
+----------------------------------------------------------------
+               XMLEDITOR.NET キー割り当てについて               
+----------------------------------------------------------------
+■編集方法
+キー割り当ての変更はshortcut.xmlファイルを編集することでおこないます。
+
+shortcutタグの内容を書き換えることで対応する機能のキー割り当てを変更できます。
+キーは"+"で連結することで組み合わせを指定できます。
+例：Control+A
+
+
+■可能なキーの組み合わせ
+・Control+任意のキー
+・Alt+任意のキー
+・Control+Shift+任意のキー
+・Control+Alt+任意のキー
+・Alt+Shift+任意のキー
+・Control+Shift+Alt+任意のキー
+
+※任意のキーはControl,Alt,Shift以外のキーです。
+※Noneを設定するとショートカットキーは割り当てられません。
+
+
+■リセットの方法
+キー割り当てをリセットしたい場合はshortcut.xmlファイルを削除してください。
+初期設定に戻ります。
+
+
+■設定可能なキー名称 （Microsoft MSDN Libraryより抜粋）
+----------------------------------------------------------------
+名前			説明
+----------------------------------------------------------------
+A			A キー  
+Add			Add キー  
+Alt			Alt 修飾子キー  
+Apps			アプリケーション キー (Microsoft Natural Keyboard)  
+Attn			Attn キー  
+B			B キー  
+Back			BackSpace キー  
+BrowserBack		戻るキー (Windows 2000 以降)  
+BrowserFavorites		お気に入りキー (Windows 2000 以降)  
+BrowserForward		進むキー (Windows 2000 以降)  
+BrowserHome		ホーム キー (Windows 2000 以降)  
+BrowserRefresh		更新キー (Windows 2000 以降)  
+BrowserSearch		検索キー (Windows 2000 以降)  
+BrowserStop		中止キー (Windows 2000 以降)  
+C			C キー  
+Cancel			Cancel キー  
+Capital			CapsLock キー  
+CapsLock		CapsLock キー  
+Clear			Clear キー  
+Control			Ctrl 修飾子キー  
+ControlKey		Ctrl キー  
+Crsel			Crsel キー  
+D			D キー  
+D0			0 キー  
+D1			1 キー  
+D2			2 キー  
+D3			3 キー  
+D4			4 キー  
+D5			5 キー  
+D6			6 キー  
+D7			7 キー  
+D8			8 キー  
+D9			9 キー  
+Decimal			小数点キー  
+Delete			Del キー  
+Divide			除算記号 (/) キー  
+Down			↓ キー  
+E			E キー  
+End			End キー  
+Enter			Enter キー  
+EraseEof			EraseEof キー  
+Escape			Esc キー  
+Execute			Execute キー  
+Exsel			Exsel キー  
+F			F キー  
+F1			F1 キー  
+F10			F10 キー  
+F11			F11 キー  
+F12			F12 キー  
+F13			F13 キー  
+F14			F14 キー  
+F15			F15 キー  
+F16			F16 キー  
+F17			F17 キー  
+F18			F18 キー  
+F19			F19 キー  
+F2			F2 キー  
+F20			F20 キー  
+F21			F21 キー  
+F22			F22 キー  
+F23			F23 キー  
+F24			F24 キー  
+F3			F3 キー  
+F4			F4 キー  
+F5			F5 キー  
+F6			F6 キー  
+F7			F7 キー  
+F8			F8 キー  
+F9			F9 キー  
+FinalMode		IME Final モード キー  
+G			G キー  
+H			H キー  
+HanguelMode		IME ハングル モード キー(互換性を保つために保持されています。Hangulode を使用します)   
+HangulMode		IME ハングル モード キー  
+HanjaMode		IME Hanja モード キー  
+Help			Help キー  
+Home			Home キー  
+I			I キー  
+IMEAccept		IME Accept キー (IMEAceept の代わりに使用します)  
+IMEAceept		IME Accept キー互換性を維持するために残されています。代わりに IMEAccet を使用してください。  
+IMEConvert		IME 変換キー  
+IMEModeChange		IME モード変更キー  
+IMENonconvert		IME 無変換キー  
+Insert			Ins キー  
+J			J キー  
+JunjaMode		IME Junja モード キー  
+K			K キー  
+KanaMode		IME かなモード キー  
+KanjiMode		IME 漢字モード キー  
+KeyCode			キー値からキー コードを抽出するビット マスク。  
+L			L キー  
+LaunchApplication1	カスタム ホット キー 1 (Windows 2000 以降)  
+LaunchApplication2	カスタム ホット キー 2 (Windows 2000 以降)  
+LaunchMail		メール ホット キー (Windows 2000 以降)  
+LButton			マウスの左ボタン  
+LControlKey		左の Ctrl キー  
+Left			← キー  
+LineFeed			ライン フィード キー  
+LMenu			左の Alt キー  
+LShiftKey		左の Shift キー  
+LWin			左の Windows ロゴ キー (Microsoft Natural Keyboard)  
+M			M キー  
+MButton			マウスの中央ボタン (3 ボタン マウスの場合)  
+MediaNextTrack		次のトラック キー (Windows 2000 以降)  
+MediaPlayPause		再生/一時停止キー (Windows 2000 以降)  
+MediaPreviousTrack	前のトラック キー (Windows 2000 以降)  
+MediaStop		停止キー (Windows 2000 以降)  
+Menu			Alt キー  
+Modifiers			キー値から修飾子を抽出するビット マスク。  
+Multiply			乗算記号 (*) キー  
+N			N キー  
+Next			PageDown キー  
+NoName			今後使用するために予約されている定数  
+None			キー入力なし  
+NumLock			NumLock キー  
+NumPad0		数値キーパッドの 0 キー  
+NumPad1		数値キーパッドの 1 キー  
+NumPad2		数値キーパッドの 2 キー  
+NumPad3		数値キーパッドの 3 キー  
+NumPad4		数値キーパッドの 4 キー  
+NumPad5		数値キーパッドの 5 キー  
+NumPad6		数値キーパッドの 6 キー  
+NumPad7		数値キーパッドの 7 キー  
+NumPad8		数値キーパッドの 8 キー  
+NumPad9		数値キーパッドの 9 キー  
+O			O キー  
+Oem1			OEM 1 キー  
+Oem102			OEM 102 キー  
+Oem2			OEM 2 キー  
+Oem3			OEM 3 キー  
+Oem4			OEM 4 キー  
+Oem5			OEM 5 キー  
+Oem6			OEM 6 キー  
+Oem7			OEM 7 キー  
+Oem8			OEM 8 キー  
+OemBackslash		RT 102 キーのキーボード上の OEM 山かっこキーまたは円記号キー (Windws 2000 以降)  
+OemClear		Clear キー  
+OemCloseBrackets	米国標準キーボード上の OEM 右角かっこキー (Windows 2000 以降) 
+Oemcomma		国または地域別キーボード上の OEM コンマ キー (Windows 2000 以降)  
+OemMinus		国または地域別キーボード上の OEM マイナス キー (Windows 2000 以降)  
+OemOpenBrackets		米国標準キーボード上の OEM 左角かっこキー (Windows 2000 以降)  
+OemPeriod		国または地域別キーボード上の OEM ピリオド キー (Windows 2000 以降)  
+OemPipe			米国標準キーボード上の OEM Pipe キー (Windows 2000 以降)  
+Oemplus			国または地域別キーボード上の OEM プラス キー (Windows 2000 以降)  
+OemQuestion		米国標準キーボード上の OEM 疑問符キー (Windows 2000 以降)  
+OemQuotes		米国標準キーボード上の OEM 一重/二重引用符キー (Windows 2000 以降)  
+OemSemicolon		米国標準キーボード上の OEM セミコロン キー (Windows 2000 以降)  
+Oemtilde			米国標準キーボード上の OEM ティルダ キー (Windows 2000 以降)  
+P			P キー  
+Pa1			PA1 キー  
+Packet			Unicode 文字がキーストロークであるかのように渡されます。Packet			のキー値、キーボード以外の入力手段に使用される 32 ビット仮想キー値の下位ワードです。  
+PageDown		PageDown キー  
+PageUp			PageUp キー  
+Pause			Pause キー  
+Play			Play キー  
+Print			Print キー  
+PrintScreen		PrintScreen キー  
+Prior			PageUp キー  
+ProcessKey		ProcessKey キー  
+Q			Q キー  
+R			R キー  
+RButton			マウスの右ボタン  
+RControlKey		右の Ctrl キー  
+Return			Return キー  
+Right			→ キー  
+RMenu			右の Alt キー  
+RShiftKey		右の Shift キー  
+RWin			右の Windows ロゴ キー (Microsoft Natural Keyboard)  
+S			S キー  
+Scroll			ScrollLock キー  
+Select			Select キー  
+SelectMedia		メディア キー (Windows 2000 以降)  
+Separator		区切り記号キー  
+Shift			Shift 修飾子キー  
+ShiftKey			Shift キー  
+Sleep			コンピュータのスリープ キー  
+Snapshot			PrintScreen キー  
+Space			Space キー  
+Subtract			減算記号 (-) キー  
+T			T キー  
+Tab			Tab キー  
+U			U キー  
+Up			↑ キー  
+V			V キー  
+VolumeDown		音量 - キー (Windows 2000 以降)  
+VolumeMute		ミュート キー (Windows 2000 以降)  
+VolumeUp		音量 + キー (Windows 2000 以降)  
+W			W キー  
+X			X キー  
+XButton1			x マウスの 1 番目のボタン (5 ボタン マウスの場合)  
+XButton2			x マウスの 2 番目のボタン (5 ボタン マウスの場合)  
+Y			Y キー  
+Z			Z キー  
+Zoom			Zoom キー  
+----------------------------------------------------------------

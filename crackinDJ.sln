@@ -3,39 +3,48 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crackinDJ", "crackinDJ\crackinDJ.csproj", "{03F7E9D6-CD5F-465F-BD17-B8E48DC75E34}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{11BA7AEE-D2CA-4E2C-9E92-41179256A875}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "config", "config\config.csproj", "{C7144C72-1C91-4FD9-A58D-3F35C2B91D0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crackinDJ", "crackinDJ\crackinDJ.csproj", "{011FC2B0-0918-49A0-825F-12DC2BB92C14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputPlugin", "InputPlugin\InputPlugin.csproj", "{D47EC058-672B-47A0-A7A5-A10D164D362D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputPluginKeyboard", "InputPluginKeyboard\InputPluginKeyboard.csproj", "{4D8CECDF-CAE4-451E-857F-8C52D7F82D83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputPluginMIDI", "InputPluginMIDI\InputPluginMIDI.csproj", "{210E99BB-CDA1-4F45-A80D-ED89214650F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{03F7E9D6-CD5F-465F-BD17-B8E48DC75E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{03F7E9D6-CD5F-465F-BD17-B8E48DC75E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{03F7E9D6-CD5F-465F-BD17-B8E48DC75E34}.Debug|x86.ActiveCfg = Debug|x86
-		{03F7E9D6-CD5F-465F-BD17-B8E48DC75E34}.Debug|x86.Build.0 = Debug|x86
-		{03F7E9D6-CD5F-465F-BD17-B8E48DC75E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{03F7E9D6-CD5F-465F-BD17-B8E48DC75E34}.Release|Any CPU.Build.0 = Release|Any CPU
-		{03F7E9D6-CD5F-465F-BD17-B8E48DC75E34}.Release|x86.ActiveCfg = Release|x86
-		{03F7E9D6-CD5F-465F-BD17-B8E48DC75E34}.Release|x86.Build.0 = Release|x86
-		{C7144C72-1C91-4FD9-A58D-3F35C2B91D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C7144C72-1C91-4FD9-A58D-3F35C2B91D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C7144C72-1C91-4FD9-A58D-3F35C2B91D0B}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{C7144C72-1C91-4FD9-A58D-3F35C2B91D0B}.Debug|x86.Build.0 = Debug|Any CPU
-		{C7144C72-1C91-4FD9-A58D-3F35C2B91D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C7144C72-1C91-4FD9-A58D-3F35C2B91D0B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C7144C72-1C91-4FD9-A58D-3F35C2B91D0B}.Release|x86.ActiveCfg = Release|Any CPU
-		{C7144C72-1C91-4FD9-A58D-3F35C2B91D0B}.Release|x86.Build.0 = Release|Any CPU
+		{011FC2B0-0918-49A0-825F-12DC2BB92C14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{011FC2B0-0918-49A0-825F-12DC2BB92C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{011FC2B0-0918-49A0-825F-12DC2BB92C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{011FC2B0-0918-49A0-825F-12DC2BB92C14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D47EC058-672B-47A0-A7A5-A10D164D362D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D47EC058-672B-47A0-A7A5-A10D164D362D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D47EC058-672B-47A0-A7A5-A10D164D362D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D47EC058-672B-47A0-A7A5-A10D164D362D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D8CECDF-CAE4-451E-857F-8C52D7F82D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D8CECDF-CAE4-451E-857F-8C52D7F82D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D8CECDF-CAE4-451E-857F-8C52D7F82D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D8CECDF-CAE4-451E-857F-8C52D7F82D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{210E99BB-CDA1-4F45-A80D-ED89214650F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{210E99BB-CDA1-4F45-A80D-ED89214650F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{210E99BB-CDA1-4F45-A80D-ED89214650F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{210E99BB-CDA1-4F45-A80D-ED89214650F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D47EC058-672B-47A0-A7A5-A10D164D362D} = {11BA7AEE-D2CA-4E2C-9E92-41179256A875}
+		{4D8CECDF-CAE4-451E-857F-8C52D7F82D83} = {11BA7AEE-D2CA-4E2C-9E92-41179256A875}
+		{210E99BB-CDA1-4F45-A80D-ED89214650F8} = {11BA7AEE-D2CA-4E2C-9E92-41179256A875}
+	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1356E829-9962-498C-AE80-153A79F2662B}
+		SolutionGuid = {018A909A-BDC3-45BE-9B32-5CB345ECC84F}
 	EndGlobalSection
 EndGlobal

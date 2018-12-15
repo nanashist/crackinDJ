@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<TGrepConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <version>1</version>
+    <ConfigTitle>ステップカウント【C# WinForm】</ConfigTitle>
+    <TGrepMaxSaveCount>10</TGrepMaxSaveCount>
+    <TGrepOutputString>
+        <string>%C	%G</string>
+    </TGrepOutputString>
+    <TGrepSearchDirectory>
+    </TGrepSearchDirectory>
+    <TGrepSearchFile>
+        <string>*.cs</string>
+    </TGrepSearchFile>
+    <TGrepSearchString>
+        <string>.*</string>
+    </TGrepSearchString>
+    <TGrepCkSubDirectorySearch>true</TGrepCkSubDirectorySearch>
+    <TGrepCkDistinctCase>false</TGrepCkDistinctCase>
+    <TGrepCbCodePage>0</TGrepCbCodePage>
+    <TGrepCbCompareOption>4</TGrepCbCompareOption>
+    <TGrepCkIgnoreCondition>true</TGrepCkIgnoreCondition>
+    <TGrepIgnoreString>
+        <string>^[\t ]*$|//|^\t*private System</string>
+    </TGrepIgnoreString>
+    <TGrepIgnoreFileKeyword>[assembly:</TGrepIgnoreFileKeyword>
+    <TGrepIgnoreFileSearchEndRow>10</TGrepIgnoreFileSearchEndRow>
+    <TGrepIgnoreStringRangeList>
+        <StringRange>
+            <Start>^\t*#region Windows フォーム デザイナで生成されたコード</Start>
+            <End>^\t\t#endregion</End>
+        </StringRange>
+    </TGrepIgnoreStringRangeList>
+    <TGrepCkSkipErrorMsg>true</TGrepCkSkipErrorMsg>
+    <TGrepDkGetFirstRow>false</TGrepDkGetFirstRow>
+    <TGrepIgnoreTab>false</TGrepIgnoreTab>
+</TGrepConfiguration>

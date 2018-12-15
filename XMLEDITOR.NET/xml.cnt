@@ -1,0 +1,31 @@
+:Base xml.hlp>main
+:Title XMLEDITOR.NETヘルプ
+:Index XMLEDITOR.NETヘルプ =xml.hlp
+1 XMLEDITOR.NET概要 =START
+1 インストール／アンインストール方法 =HLP000047
+1 動作環境 =HLP000048
+1 使い方
+2 XML文書を新規作成する =HLP000052
+2 XML要素を挿入する =HLP000055
+2 XML要素を更新する =HLP000056
+1 画面の説明
+2 メインウインドウ =MAINWINDOW
+2 検索／置換ダイアログ =HLP000034
+2 メニューバー
+3 ファイル =HLP000013
+3 編集 =HLP000015
+3 表示 =HLP000016
+3 変換 =HLP000017
+3 オプション =HLP000018
+3 ツール =HLP000019
+3 ヘルプ =HLP000020
+2 ステータスバー
+3 XPath =HLP000028
+3 選択位置 =HLP000029
+3 バイナリ =HLP000031
+3 文字コード =HLP000032
+3 プログレスバー =HLP000033
+1 その他
+2 Q&A =HLP000054
+2 連絡先 =HLP000050
+

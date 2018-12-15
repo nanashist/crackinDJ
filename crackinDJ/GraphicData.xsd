@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="XMLGraphicData">
+
+      <xsd:complexType>
+        <xsd:sequence>
+
+    <xsd:element name="LIST">
+      <xsd:complexType>
+        <xsd:sequence>
+          <xsd:element ref="RECORD" maxOccurs="unbounded"/>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="RECORD">
+      <xsd:complexType>
+        <xsd:sequence>
+          <xsd:element ref="Name"/>
+          <xsd:element ref="FileName"/>
+          <xsd:element ref="Align"/>
+          <xsd:element ref="Xdiv"/>
+          <xsd:element ref="Ydiv"/>
+          <xsd:element ref="AnimeFrame"/>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:element>
+
+        </xsd:sequence>
+      </xsd:complexType>
+
+  </xsd:element>
+  <xsd:element name="Name" type="xsd:string"/>
+  <xsd:element name="FileName" type="xsd:string"/>
+  <xsd:element name="Align" type="xsd:string"/>
+  <xsd:element name="Xdiv" type="xsd:integer"/>
+  <xsd:element name="Ydiv" type="xsd:integer"/>
+  <xsd:element name="AnimeFrame" type="xsd:integer"/>
+</xsd:schema>
+
